@@ -46,5 +46,10 @@ body {
 }
 
 #doanddont {
-    
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-template-areas: 
+    "doanddont"
 }
+
+
