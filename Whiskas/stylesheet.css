@@ -48,7 +48,7 @@ body {
 #doanddont {
     display: grid;
     grid-column: 1fr 1fr;
-    grid-row: 1fr 1fr;
+    grid-row: 1fr;
     grid-template-areas: 
     "whiskasmilk whiskasmilk"
     "milkbilled whiskasmilk";
