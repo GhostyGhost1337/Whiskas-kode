@@ -16,7 +16,7 @@ h2 {
 }
 
 p {
-    font-size: 1.35em
+    font-size: 1.35em;
 }
 
 ol {
@@ -36,30 +36,79 @@ body {
     
 }
 
-#indhold {
+.indhold {
     
 }
 
-#pasdinkat {
+.poverskrift {
     background-color: #FFB800;
     text-align: center;
 }
 
-#doanddont {
-    display: grid;
-    grid-column: 1fr 1fr;
-    grid-row: 1fr;
-    grid-template-areas: 
-    "whiskasmilk whiskasmilk"
-    "milkbilled whiskasmilk";
-    
+
+
+
+.overskrift {
+    grid-area: overskrift;
 }
 
-
-#whiskasmilk {
-    grid-area: whiskasmilk;
+.pasdinkat {
+    grid-area: pasdinkat;
     }
 
-#milkbilled {
+.indhold {
+    grid-area: indhold;
+}
+
+.whiskasmilk {
+    display: grid;
+    grid-column: 2fr 1fr;
+    grid-template-areas: 
+    "catsandmilk catsandmilk"
+    "dontfirst dontfirst"
+    "catmilk catmilk"
+    "milkbilled firstdo";
+    }
+
+.catsandmilk {
+    grid-area: catsandmilk;
+}
+
+.dontfirst {
+    grid-area: dontfirst;
+}
+
+.catmilk {
+    grid-area: catmilk;
+}
+
+.milkbilled {
     grid-area: milkbilled;
+
+}
+
+.firstdo {
+    grid-area: firstdo;
+    background-color: #999999;
+    grid-column-start: 3;
+}
+
+.notadog {
+    grid-area: notadog;
+}
+
+.notvegan {
+    grid-area: notvegan;
+}
+
+.adult {
+    grid-area: adult;
+}
+
+.opdragelse {
+    grid-area: opdragelse;
+}
+
+.questions {
+    grid-area: questions;
 }
