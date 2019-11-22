@@ -28,6 +28,10 @@ ol {
     
 }
 
+img {
+
+}
+
 li {
   
 }
@@ -36,11 +40,11 @@ body {
     
 }
 
-.indhold {
+#indhold {
     
 }
 
-.poverskrift {
+#poverskrift {
     background-color: #FFB800;
     text-align: center;
 }
@@ -48,67 +52,73 @@ body {
 
 
 
-.overskrift {
+#overskrift {
     grid-area: overskrift;
 }
 
-.pasdinkat {
+#pasdinkat {
     grid-area: pasdinkat;
     }
 
-.indhold {
+#indhold {
     grid-area: indhold;
 }
 
-.whiskasmilk {
+#doanddont {
     display: grid;
-    grid-column: 2fr 1fr;
+    grid-column: 1fr 1fr;
     grid-template-areas: 
+    "overskrift overskrift"
+    "pasdinkat pasdinkat"
+    "indhold indhold"
     "catsandmilk catsandmilk"
     "dontfirst dontfirst"
     "catmilk catmilk"
-    "milkbilled firstdo";
+    "milkbilled firstdo"
+    "notadog notadog"
+    "notvegan notvegan"
+    "adult adult"
+    "opdragelse opdragelse"
+    "questions questions";
     }
 
-.catsandmilk {
+#catsandmilk {
     grid-area: catsandmilk;
 }
 
-.dontfirst {
+#dontfirst {
     grid-area: dontfirst;
 }
 
-.catmilk {
+#catmilk {
     grid-area: catmilk;
 }
 
-.milkbilled {
+#milkbilled {
     grid-area: milkbilled;
-
 }
 
-.firstdo {
+#firstdo {
     grid-area: firstdo;
     background-color: #999999;
-    grid-column-start: 3;
 }
 
-.notadog {
+#notadog {
     grid-area: notadog;
 }
 
-.notvegan {
+#notvegan {
     grid-area: notvegan;
 }
 
-.adult {
+#adult {
     grid-area: adult;
 }
 
-.opdragelse {
+#opdragelse {
     grid-area: opdragelse;
 }
 
-.questions {
+#questions {
     grid-area: questions;
 }
