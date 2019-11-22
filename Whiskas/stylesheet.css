@@ -66,7 +66,8 @@ body {
 
 #doanddont {
     display: grid;
-    grid-column: 1fr 1fr;
+    grid-column: 1fr;
+    grid-row: 0.5fr;
     grid-template-areas: 
     "overskrift overskrift"
     "pasdinkat pasdinkat"
@@ -76,9 +77,21 @@ body {
     "catmilk catmilk"
     "milkbilled firstdo"
     "notadog notadog"
+    "seconddont seconddont"
+    "tilkatten tilkatten"
+    "seconddo seconddo"
     "notvegan notvegan"
+    "thirddont thirddont"
+    "protein protein"
+    "thirddo thirddo"
     "adult adult"
+    "fourthdont fourthdont"
+    "foderskift foderskift"
+    "fourthdo fourthdo"
     "opdragelse opdragelse"
+    "femtedont femtedont"
+    "doable doable"
+    "femtedo femtedo"
     "questions questions";
     }
 
@@ -117,6 +130,70 @@ body {
 
 #opdragelse {
     grid-area: opdragelse;
+}
+
+#notadog {
+    grid-area: notadog;
+}
+
+#seconddont {
+    grid-area: seconddont;
+}
+
+#tilkatten {
+    grid-area: tilkatten;
+}
+
+#seconddo {
+    grid-area: seconddo;
+}
+
+#notvegan {
+    grid-area: notvegan;
+}
+
+#thirddont {
+    grid-area: thirddont;
+}
+
+#protein {
+     grid-area: protein;
+}
+
+#thirddo {
+     grid-area: thirddo;
+}
+
+#adult {
+     grid-area: adult;
+}
+
+#fourthdont {
+     grid-area: fourthdont;
+}
+
+#foderskift {
+     grid-area: foderskift;
+}
+
+#fourthdo {
+     grid-area: fourthdo;
+}
+
+#opdragelse {
+    grid-area: opdragelse 
+}
+    
+#femtedont {
+     grid-area: femtedont;
+}
+
+#doable {
+     grid-area: doable;
+}
+
+#femtedo {
+     grid-area: femtedo;
 }
 
 #questions {
