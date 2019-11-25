@@ -3,6 +3,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 }
 
+/*mobil 400 px tablet 400 til 1000 px*/
+
+
 h1 {
     text-align: center;
     background-color: #790069;
@@ -28,6 +31,10 @@ ol {
     
 }
 
+body {
+    background-color: #888888;
+}
+
 img {
 
 }
@@ -45,11 +52,42 @@ body {
 }
 
 #poverskrift {
-    background-color: #FFB800;
+    ;
     text-align: center;
 }
 
-
+#doanddont {
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 0.5fr;
+    grid-template-areas:
+    "overskrift overskrift overskrift"
+    "pasdinkat pasdinkat pasdinkat"
+    "intro intro intro"
+    "indhold indhold indhold"
+    "catsandmilk catsandmilk catsandmilk"
+    "dontfirst dontfirst dontfirst"
+    "catmilk catmilk catmilk"
+    "milkbilled firstdo firstdo"
+    "notadog notadog notadog"
+    "seconddont seconddont seconddont"
+    "tilkatten tilkatten tilkatten"
+    "seconddo seconddo seconddo"
+    "notvegan notvegan notvegan"
+    "thirddont thirddont thirddont"
+    "protein protein protein"
+    "thirddo thirddo thirddo"
+    "adult adult adult"
+    "fourthdont fourthdont fourthdont"
+    "foderskift foderskift foderskift"
+    "fourthdo fourthdo fourthdo"
+    "opdragelse opdragelse opdragelse"
+    "femtedont femtedont femtedont"
+    "doable doable doable"
+    "femtedo femtedo femtedo"
+    "questions questions questions"
+    "footer footer footer";
+    }
 
 
 #overskrift {
@@ -58,42 +96,17 @@ body {
 
 #pasdinkat {
     grid-area: pasdinkat;
+    color: #790069;
     }
 
 #indhold {
     grid-area: indhold;
 }
 
-#doanddont {
-    display: grid;
-    grid-column: 1fr;
-    grid-row: 0.5fr;
-    grid-template-areas: 
-    "overskrift overskrift"
-    "pasdinkat pasdinkat"
-    "indhold indhold"
-    "catsandmilk catsandmilk"
-    "dontfirst dontfirst"
-    "catmilk catmilk"
-    "milkbilled firstdo"
-    "notadog notadog"
-    "seconddont seconddont"
-    "tilkatten tilkatten"
-    "seconddo seconddo"
-    "notvegan notvegan"
-    "thirddont thirddont"
-    "protein protein"
-    "thirddo thirddo"
-    "adult adult"
-    "fourthdont fourthdont"
-    "foderskift foderskift"
-    "fourthdo fourthdo"
-    "opdragelse opdragelse"
-    "femtedont femtedont"
-    "doable doable"
-    "femtedo femtedo"
-    "questions questions";
-    }
+#intro {
+    grid-area: intro;
+    background-color: #FFB800;
+}
 
 #catsandmilk {
     grid-area: catsandmilk;
@@ -101,6 +114,12 @@ body {
 
 #dontfirst {
     grid-area: dontfirst;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #catmilk {
@@ -109,11 +128,20 @@ body {
 
 #milkbilled {
     grid-area: milkbilled;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #firstdo {
     grid-area: firstdo;
     background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 15px;
 }
 
 #notadog {
@@ -138,6 +166,12 @@ body {
 
 #seconddont {
     grid-area: seconddont;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #tilkatten {
@@ -146,6 +180,12 @@ body {
 
 #seconddo {
     grid-area: seconddo;
+    background-color: #999999;
+    width: 600px;
+    height: 250px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #notvegan {
@@ -154,6 +194,12 @@ body {
 
 #thirddont {
     grid-area: thirddont;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #protein {
@@ -161,7 +207,13 @@ body {
 }
 
 #thirddo {
-     grid-area: thirddo;
+    grid-area: thirddo;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #adult {
@@ -169,7 +221,13 @@ body {
 }
 
 #fourthdont {
-     grid-area: fourthdont;
+    grid-area: fourthdont;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #foderskift {
@@ -177,7 +235,13 @@ body {
 }
 
 #fourthdo {
-     grid-area: fourthdo;
+    grid-area: fourthdo;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #opdragelse {
@@ -185,7 +249,13 @@ body {
 }
     
 #femtedont {
-     grid-area: femtedont;
+    grid-area: femtedont;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #doable {
@@ -193,9 +263,96 @@ body {
 }
 
 #femtedo {
-     grid-area: femtedo;
+    grid-area: femtedo;
+    background-color: #999999;
+    width: 600px;
+    height: 200px;
+    border: 10px solid gray;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 150px;
 }
 
 #questions {
     grid-area: questions;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    
+#doanddont {
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 0.5fr;
+    grid-template-areas:
+    "overskrift overskrift"
+    "pasdinkat pasdinkat"
+    "intro intro"
+    "indhold indhold"
+    "catsandmilk catsandmilk"
+    "dontfirst dontfirst"
+    "catmilk catmilk"
+    "milkbilled firstdo"
+    "notadog notadog"
+    "seconddont seconddont"
+    "tilkatten tilkatten"
+    "seconddo seconddo"
+    "notvegan notvegan"
+    "thirddont thirddont"
+    "protein protein"
+    "thirddo thirddo"
+    "adult adult"
+    "fourthdont fourthdont"
+    "foderskift foderskift"
+    "fourthdo fourthdo"
+    "opdragelse opdragelse"
+    "femtedont femtedont"
+    "doable doable"
+    "femtedo femtedo"
+    "questions questions"
+    "footer footer";
+    }
+}
+
+    
+@media screen and (max-width: 400px) {
+    
+#doanddont {
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 0.5fr;
+    grid-template-areas:
+    "overskrift"
+    "pasdinkat"
+    "intro"
+    "indhold"
+    "catsandmilk"
+    "dontfirst"
+    "catmilk"
+    "firstdo"
+    "milkbilled"
+    "notadog"
+    "seconddont"
+    "tilkatten"
+    "seconddo"
+    "notvegan"
+    "thirddont"
+    "protein"
+    "thirddo"
+    "adult"
+    "fourthdont"
+    "foderskift"
+    "fourthdo"
+    "opdragelse"
+    "femtedont"
+    "doable"
+    "femtedo"
+    "questions"
+    "footer";
+    }
 }
