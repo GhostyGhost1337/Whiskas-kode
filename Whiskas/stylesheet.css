@@ -6,7 +6,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 /*mobil 400 px tablet 400 til 1000 px*/
 
 
-
 h1 {
     text-align: center;
     background-color: #790069;
@@ -64,6 +63,7 @@ a.hover {
 
 body {
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 img {
@@ -74,9 +74,6 @@ li {
   
 }
 
-body {
-    
-}
 #indhold {
     font-size: 1.30em;
     font-family: 'Open Sans', sans-serif; 
@@ -126,6 +123,8 @@ body {
 #overskrift {
     grid-area: overskrift;
     font-size: 1.6em;
+    margin-right: -8px;
+    margin-left: -8px
 }
 
 #pasdinkat {
