@@ -6,20 +6,36 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 /*mobil 400 px tablet 400 til 1000 px*/
 
 
+
 h1 {
     text-align: center;
     background-color: #790069;
     color: white;
     font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin-top: -8px;
+    margin-bottom: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 h2 {
     text-align: center;
     font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: #790069;
+    font-weight: 1000;
+
 }
 
 p {
-    font-size: 1.35em;
+    font-size: 1.30em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
 }
 
 ol {
@@ -28,11 +44,13 @@ ol {
     background-color: #790069;
     color: white;
     list-style-position: inside;
+    height: 260px;
+    line-height: 1.7
     
 }
 
 body {
-    background-color: #888888;
+    background-color: #ffffff;
 }
 
 img {
@@ -46,15 +64,18 @@ li {
 body {
     
 }
-
 #indhold {
-    
+    font-size: 1.30em;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 #poverskrift {
     ;
     text-align: center;
+    font-weight: 600;
+    color: #790069;
 }
+
 
 #doanddont {
     display: grid;
@@ -74,38 +95,47 @@ body {
     "tilkatten tilkatten tilkatten"
     "seconddo seconddo seconddo"
     "notvegan notvegan notvegan"
-    "thirddont thirddont thirddont"
+    "thirddont thirddont veganbilled"
     "protein protein protein"
     "thirddo thirddo thirddo"
     "adult adult adult"
-    "fourthdont fourthdont fourthdont"
+    "killingbilled fourthdont fourthdont"
     "foderskift foderskift foderskift"
     "fourthdo fourthdo fourthdo"
     "opdragelse opdragelse opdragelse"
     "femtedont femtedont femtedont"
     "doable doable doable"
-    "femtedo femtedo femtedo"
-    "questions questions questions"
+    "femtedo femtedo opdragelsebilled"
     "footer footer footer";
     }
 
 
 #overskrift {
     grid-area: overskrift;
+    font-size: 1.6em;
 }
 
 #pasdinkat {
     grid-area: pasdinkat;
     color: #790069;
+    font-size: 1.5em;
+    
     }
 
 #indhold {
     grid-area: indhold;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #intro {
     grid-area: intro;
     background-color: #FFB800;
+    height: 150px;
+    margin-bottom: -25px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 10px 20px;
 }
 
 #catsandmilk {
@@ -114,12 +144,13 @@ body {
 
 #dontfirst {
     grid-area: dontfirst;
-    background-color: #999999;
-    width: 600px;
+    background-color: #797979;
+    width: 70%;
     height: 200px;
-    border: 10px solid gray;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #catmilk {
@@ -129,24 +160,36 @@ body {
 #milkbilled {
     grid-area: milkbilled;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    
 }
 
 #firstdo {
     grid-area: firstdo;
-    background-color: #999999;
-    width: 600px;
-    height: 200px;
-    border: 10px solid gray;
+    background-color: #797979;
+    width: 70%;
+    height: 80%;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 15px;
+    margin: auto;
+    float: center;
+    
+    
 }
 
 #notadog {
     grid-area: notadog;
+    
+    
 }
+
+#veganbilled {
+    
+    grid-area: veganbilled;
+    display: block;
+    margin: auto;
+}
+
 
 #notvegan {
     grid-area: notvegan;
@@ -158,6 +201,7 @@ body {
 
 #opdragelse {
     grid-area: opdragelse;
+    
 }
 
 #notadog {
@@ -166,12 +210,13 @@ body {
 
 #seconddont {
     grid-area: seconddont;
-    background-color: #999999;
-    width: 600px;
+    background-color: #790069;
+    width: 70%;
     height: 200px;
-    border: 10px solid gray;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #tilkatten {
@@ -180,12 +225,13 @@ body {
 
 #seconddo {
     grid-area: seconddo;
-    background-color: #999999;
-    width: 600px;
-    height: 250px;
-    border: 10px solid gray;
+    background-color: #790069;
+    width: 70%;
+    height: 200px;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #notvegan {
@@ -194,12 +240,13 @@ body {
 
 #thirddont {
     grid-area: thirddont;
-    background-color: #999999;
-    width: 600px;
-    height: 200px;
-    border: 10px solid gray;
+    background-color: #FFB800;
+    width: 70%;
+    height: 85%;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #protein {
@@ -208,12 +255,13 @@ body {
 
 #thirddo {
     grid-area: thirddo;
-    background-color: #999999;
-    width: 600px;
-    height: 200px;
-    border: 10px solid gray;
+    background-color: #FFB800;
+    width: 70%;
+    height: 90%;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #adult {
@@ -222,12 +270,13 @@ body {
 
 #fourthdont {
     grid-area: fourthdont;
-    background-color: #999999;
-    width: 600px;
-    height: 200px;
-    border: 10px solid gray;
+    background-color: #797979;
+    width: 70%;
+    height: 85%;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #foderskift {
@@ -236,12 +285,26 @@ body {
 
 #fourthdo {
     grid-area: fourthdo;
-    background-color: #999999;
-    width: 600px;
+    background-color: #797979;
+    width: 70%;
     height: 200px;
-    border: 10px solid gray;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
+}
+
+#killingbilled {
+    grid-area: killingbilled;
+    display: block;
+    margin: auto;
+}
+
+#opdragelsebilled {
+    grid-area: opdragelsebilled;
+    display: block;
+    margin: auto;
+    
 }
 
 #opdragelse {
@@ -250,12 +313,13 @@ body {
     
 #femtedont {
     grid-area: femtedont;
-    background-color: #999999;
-    width: 600px;
-    height: 200px;
-    border: 10px solid gray;
+    background-color: #790069;
+    width: 70%;
+    height: 80%;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
 #doable {
@@ -264,21 +328,27 @@ body {
 
 #femtedo {
     grid-area: femtedo;
-    background-color: #999999;
-    width: 600px;
-    height: 200px;
-    border: 10px solid gray;
+    background-color: #790069;
+    width: 70%;
+    height: 90%;
+    border: 10px;
     padding: 10px 20px;
-    margin: 10px 20px 30px 150px;
+    margin: auto;
+    float: center;
 }
 
-#questions {
-    grid-area: questions;
-}
 
 #footer {
     grid-area: footer;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFB800;
+    color: white;
+    height: 200%;
+    width: 100%;
+    margin: auto;
+    
 }
+
 
 
 
@@ -287,7 +357,7 @@ body {
     
 #doanddont {
     display: grid;
-    grid-column: 1fr;
+    grid-column: 2fr 1fr;
     grid-row: 0.5fr;
     grid-template-areas:
     "overskrift overskrift"
@@ -303,25 +373,31 @@ body {
     "tilkatten tilkatten"
     "seconddo seconddo"
     "notvegan notvegan"
-    "thirddont thirddont"
+    "thirddont veganbilled"
     "protein protein"
     "thirddo thirddo"
     "adult adult"
-    "fourthdont fourthdont"
+    "killingbilled fourthdont"
     "foderskift foderskift"
     "fourthdo fourthdo"
     "opdragelse opdragelse"
     "femtedont femtedont"
     "doable doable"
-    "femtedo femtedo"
-    "questions questions"
+    "femtedo opdragelsebilled"
     "footer footer";
     }
-}
+    
+    
+    .body    {
+        align-content: center;
+        margin: auto;
+    
+    }
+  
+    
+@media screen and (max-width: 200px)  {
+        }    
 
-    
-@media screen and (max-width: 400px) {
-    
 #doanddont {
     display: grid;
     grid-column: 1fr;
@@ -334,25 +410,33 @@ body {
     "catsandmilk"
     "dontfirst"
     "catmilk"
+    "milkbilled" 
     "firstdo"
-    "milkbilled"
     "notadog"
     "seconddont"
     "tilkatten"
     "seconddo"
     "notvegan"
-    "thirddont"
+    "thirddont" 
+    "veganbilled"
     "protein"
     "thirddo"
     "adult"
     "fourthdont"
+    "killingbilled"
     "foderskift"
     "fourthdo"
     "opdragelse"
     "femtedont"
     "doable"
     "femtedo"
-    "questions"
+    "opdragelsebilled"
     "footer";
     }
+    }
+
+body    {
+height: 100%;
+align-content: center;
+margin: auto;
 }
