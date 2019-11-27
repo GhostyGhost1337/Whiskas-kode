@@ -49,6 +49,19 @@ ol {
     
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+    
+}
+
+}
+
+a.hover {
+    
+    color: #FFB800;
+}
+
 body {
     background-color: #ffffff;
 }
@@ -131,7 +144,7 @@ body {
 #intro {
     grid-area: intro;
     background-color: #FFB800;
-    height: 150px;
+    height: auto;
     margin-bottom: -25px;
     margin-left: -8px;
     margin-right: -8px;
@@ -146,7 +159,7 @@ body {
     grid-area: dontfirst;
     background-color: #797979;
     width: 70%;
-    height: 200px;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -159,8 +172,9 @@ body {
 
 #milkbilled {
     grid-area: milkbilled;
-    display: block;
+    display: inline;
     margin: auto;
+    padding-bottom: 50px;
     
 }
 
@@ -168,9 +182,9 @@ body {
     grid-area: firstdo;
     background-color: #797979;
     width: 70%;
-    height: 80%;
+    height: auto;
     border: 10px;
-    padding: 10px 20px;
+    padding: 20px 20px;;
     margin: auto;
     float: center;
     
@@ -186,7 +200,8 @@ body {
 #veganbilled {
     
     grid-area: veganbilled;
-    display: block;
+    display: inline;
+    padding-top: 50px;
     margin: auto;
 }
 
@@ -212,7 +227,7 @@ body {
     grid-area: seconddont;
     background-color: #790069;
     width: 70%;
-    height: 200px;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -227,7 +242,7 @@ body {
     grid-area: seconddo;
     background-color: #790069;
     width: 70%;
-    height: 200px;
+    height: auto;;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -242,7 +257,7 @@ body {
     grid-area: thirddont;
     background-color: #FFB800;
     width: 70%;
-    height: 85%;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -257,7 +272,7 @@ body {
     grid-area: thirddo;
     background-color: #FFB800;
     width: 70%;
-    height: 90%;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -272,7 +287,7 @@ body {
     grid-area: fourthdont;
     background-color: #797979;
     width: 70%;
-    height: 85%;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -287,7 +302,7 @@ body {
     grid-area: fourthdo;
     background-color: #797979;
     width: 70%;
-    height: 200px;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -296,15 +311,18 @@ body {
 
 #killingbilled {
     grid-area: killingbilled;
-    display: block;
+    display: inline;
     margin: auto;
+    padding-bottom: 10px;
+    padding-top: 50px;
 }
 
 #opdragelsebilled {
     grid-area: opdragelsebilled;
-    display: block;
+    display: inline;
     margin: auto;
-    
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 #opdragelse {
@@ -315,7 +333,7 @@ body {
     grid-area: femtedont;
     background-color: #790069;
     width: 70%;
-    height: 80%;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -330,7 +348,7 @@ body {
     grid-area: femtedo;
     background-color: #790069;
     width: 70%;
-    height: 90%;
+    height: auto;
     border: 10px;
     padding: 10px 20px;
     margin: auto;
@@ -341,12 +359,12 @@ body {
 #footer {
     grid-area: footer;
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFB800;
+    background-color: #797979;
     color: white;
     height: 200%;
     width: 100%;
     margin: auto;
-    
+    text-align: center;
 }
 
 
